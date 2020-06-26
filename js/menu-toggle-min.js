@@ -1,0 +1,2 @@
+"use strict";!function(){var s=document.querySelector(".main-nav"),e=document.querySelector(".menu-toggle");s.classList.remove("main-nav--nojs"),s.classList.add("main-nav--closed"),e.classList.add("menu-toggle--show");e.addEventListener("click",function(){s.classList.contains("main-nav--closed")?(s.classList.remove("main-nav--closed"),s.classList.add("main-nav--opened"),e.classList.add("menu-toggle--cross")):(s.classList.add("main-nav--closed"),e.classList.remove("menu-toggle--cross"),s.classList.remove("main-nav--opened"))})}();
+//# sourceMappingURL=menu-toggle-min.js.map
